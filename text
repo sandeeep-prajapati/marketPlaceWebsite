@@ -1,0 +1,11 @@
+ </IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^$ public/index.php [L]
+    RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+</IfModule>
+user_cards
+
+user_cards2022
+
+Options All -Indexes
